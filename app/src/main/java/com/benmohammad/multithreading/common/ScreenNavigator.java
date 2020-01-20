@@ -1,6 +1,7 @@
 package com.benmohammad.multithreading.common;
 
 import com.benmohammad.multithreading.common.demo.UiHandlerDemoFragment;
+import com.benmohammad.multithreading.common.demo.UiThreadDemonstrationFragment;
 import com.benmohammad.multithreading.home.HomeFragment;
 import com.techyourchance.fragmenthelper.FragmentHelper;
 
@@ -28,4 +29,7 @@ public class ScreenNavigator {
         fragmentHelper.replaceFragment(UiHandlerDemoFragment.newInstance());
     }
 
+    public void toUiThreadDemo() {
+        fragmentHelper.replaceFragment(UiThreadDemonstrationFragment.newInstance());
+    }
 }

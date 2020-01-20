@@ -2,7 +2,8 @@ package com.benmohammad.multithreading.home;
 
 public enum ScreenReachableFromHome {
 
-    UiHandlerDemo("Ui Handler Demo");
+    UiHandlerDemo("Ui Handler Demo"),
+    UiThreadDemo("Ui Thread Demo");
 
     private String mName;
 
