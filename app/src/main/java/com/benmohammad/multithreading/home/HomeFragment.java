@@ -33,6 +33,9 @@ public class HomeFragment extends BaseFragment implements HomeArrayAdapter.Liste
         mListScreenReachableFromHome = view.findViewById(R.id.list_screens);
         mListScreenReachableFromHome.setAdapter(arrayAdapter);
 
+        arrayAdapter.addAll(ScreenReachableFromHome.values());
+        arrayAdapter.notifyDataSetChanged();
+
         return view;
     }
 
@@ -45,8 +48,9 @@ public class HomeFragment extends BaseFragment implements HomeArrayAdapter.Liste
     @Override
     public void onScreenClicked(ScreenReachableFromHome screenReachableFromHome) {
         switch(screenReachableFromHome) {
-            case TEMP:
-                Toast.makeText(getContext(), "Temp clicked!!", Toast.LENGTH_SHORT).show();
+            case UiHandlerDemo:
+                screenNavigator.toUiHandlerDemo();
+                break;
         }
     }
 

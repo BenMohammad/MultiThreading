@@ -8,6 +8,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.benmohammad.multithreading.common.di.PresentationCompositionRoot;
+import com.benmohammad.multithreading.home.HomeArrayAdapter;
+import com.benmohammad.multithreading.home.HomeFragment;
 import com.techyourchance.fragmenthelper.HierarchicalFragment;
 
 public abstract class BaseFragment extends Fragment implements HierarchicalFragment {
@@ -40,6 +42,6 @@ public abstract class BaseFragment extends Fragment implements HierarchicalFragm
     @Nullable
     @Override
     public Fragment getHierarchicalParentFragment() {
-        return null;
+        return HomeFragment.newInstance();
     }
 }
