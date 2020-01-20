@@ -3,6 +3,7 @@ package com.benmohammad.multithreading.common;
 import com.benmohammad.multithreading.common.demo.UiHandlerDemoFragment;
 import com.benmohammad.multithreading.common.demo.UiThreadDemonstrationFragment;
 import com.benmohammad.multithreading.exercises.Exercise1Fragment;
+import com.benmohammad.multithreading.exercises.Exercise2Fragment;
 import com.benmohammad.multithreading.home.HomeFragment;
 import com.techyourchance.fragmenthelper.FragmentHelper;
 
@@ -36,5 +37,9 @@ public class ScreenNavigator {
 
     public void toExercise1() {
         fragmentHelper.replaceFragment(Exercise1Fragment.newInstance());
+    }
+
+    public void toExercise2() {
+        fragmentHelper.replaceFragment(Exercise2Fragment.newInstance());
     }
 }
