@@ -60,6 +60,9 @@ public class HomeFragment extends BaseFragment implements HomeArrayAdapter.Liste
             case EXERCISE_2:
                 screenNavigator.toExercise2();
                 break;
+            case CUSTOM_HANDLER:
+                screenNavigator.toCustomHandlerDemo();
+                break;
         }
     }
 

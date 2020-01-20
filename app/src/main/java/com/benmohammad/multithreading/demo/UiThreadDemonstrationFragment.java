@@ -1,6 +1,5 @@
-package com.benmohammad.multithreading.common.demo;
+package com.benmohammad.multithreading.demo;
 
-import android.icu.text.LocaleDisplayNames;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;

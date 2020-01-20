@@ -1,7 +1,8 @@
 package com.benmohammad.multithreading.common;
 
-import com.benmohammad.multithreading.common.demo.UiHandlerDemoFragment;
-import com.benmohammad.multithreading.common.demo.UiThreadDemonstrationFragment;
+import com.benmohammad.multithreading.demo.CustomHandlerDemonstrationFragment;
+import com.benmohammad.multithreading.demo.UiHandlerDemoFragment;
+import com.benmohammad.multithreading.demo.UiThreadDemonstrationFragment;
 import com.benmohammad.multithreading.exercises.Exercise1Fragment;
 import com.benmohammad.multithreading.exercises.Exercise2Fragment;
 import com.benmohammad.multithreading.home.HomeFragment;
@@ -41,5 +42,9 @@ public class ScreenNavigator {
 
     public void toExercise2() {
         fragmentHelper.replaceFragment(Exercise2Fragment.newInstance());
+    }
+
+    public void toCustomHandlerDemo() {
+        fragmentHelper.replaceFragment(CustomHandlerDemonstrationFragment.newInstance());
     }
 }

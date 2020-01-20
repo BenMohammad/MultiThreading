@@ -1,4 +1,4 @@
-package com.benmohammad.multithreading.common.demo;
+package com.benmohammad.multithreading.demo;
 
 import android.os.Bundle;
 import android.os.Handler;
