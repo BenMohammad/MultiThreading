@@ -1,5 +1,6 @@
 package com.benmohammad.multithreading.common;
 
+import com.benmohammad.multithreading.demo.AtomicityDemonstrationFragment;
 import com.benmohammad.multithreading.demo.CustomHandlerDemonstrationFragment;
 import com.benmohammad.multithreading.demo.UiHandlerDemoFragment;
 import com.benmohammad.multithreading.demo.UiThreadDemonstrationFragment;
@@ -46,5 +47,9 @@ public class ScreenNavigator {
 
     public void toCustomHandlerDemo() {
         fragmentHelper.replaceFragment(CustomHandlerDemonstrationFragment.newInstance());
+    }
+
+    public void toAtomicityDemo() {
+        fragmentHelper.replaceFragment(AtomicityDemonstrationFragment.newInstance());
     }
 }
