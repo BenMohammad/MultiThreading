@@ -8,7 +8,8 @@ public enum ScreenReachableFromHome {
     EXERCISE_2("Exercise 2"),
     CUSTOM_HANDLER("Custom Handler Demo"),
     ATOMICITY_DEMO("Atomicity Demo"),
-    EXERCISE_3("Exercise 3");
+    EXERCISE_3("Exercise 3"),
+    EXERCISE_4("Exercise 4");
 
     private String mName;
 
