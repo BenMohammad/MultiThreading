@@ -9,6 +9,7 @@ import com.benmohammad.multithreading.exercises.Exercise1Fragment;
 import com.benmohammad.multithreading.exercises.Exercise2Fragment;
 import com.benmohammad.multithreading.exercises.Exercise3Fragment;
 import com.benmohammad.multithreading.exercises.Exercise4Fragment;
+import com.benmohammad.multithreading.exercises.Exercise5Fragment;
 import com.benmohammad.multithreading.home.HomeFragment;
 import com.techyourchance.fragmenthelper.FragmentHelper;
 
@@ -66,5 +67,9 @@ public class ScreenNavigator {
 
     public void toThreadWaitDemo() {
         fragmentHelper.replaceFragment(ThreadWaitDemonstrationFragment.newInstance());
+    }
+
+    public void toExercise5() {
+        fragmentHelper.replaceFragment(Exercise5Fragment.newInstance());
     }
 }

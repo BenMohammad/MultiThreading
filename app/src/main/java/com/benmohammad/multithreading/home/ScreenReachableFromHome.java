@@ -10,7 +10,8 @@ public enum ScreenReachableFromHome {
     ATOMICITY_DEMO("Atomicity Demo"),
     EXERCISE_3("Exercise 3"),
     EXERCISE_4("Exercise 4"),
-    THREAD_WAIT_DEMO("Thread Wait Demo");
+    THREAD_WAIT_DEMO("Thread Wait Demo"),
+    EXERCISE_5("Exercise 5");
 
     private String mName;
 
