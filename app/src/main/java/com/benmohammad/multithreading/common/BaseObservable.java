@@ -35,8 +35,8 @@ public abstract class BaseObservable<LISTENER_CLASS> {
         }
     }
 
-    protected abstract void onFirstListenerRegistered();
+    protected void onFirstListenerRegistered(){}
 
-    protected abstract void onLastListenerRegsitered();
+    protected void onLastListenerRegsitered(){}
 
 }
