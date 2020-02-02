@@ -13,7 +13,8 @@ public enum ScreenReachableFromHome {
     THREAD_WAIT_DEMO("Thread Wait Demo"),
     EXERCISE_5("Exercise 5"),
     DESIGN_WITH_THREAD("Design with Thread"),
-    EXERCISE_6("Exercise 6");
+    EXERCISE_6("Exercise 6"),
+    DESIGN_WITH_THREADPOOL("Design with ThreadPool");
 
     private String mName;
 
