@@ -32,7 +32,10 @@ public class DesignWithThreadPoolDemonstrationFragment extends BaseFragment impl
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mProducerConsumerBenchmarkUseCase = new ProducerConsumerBenchmarkUseCase();
+        mProducerConsumerBenchmarkUseCase = new ProducerConsumerBenchmarkUseCase(
+                getCompositionRoot().getMUIHandler(),
+                getCompositionRoot().getThreadPoolExecutor()
+        );
     }
 
     @Nullable

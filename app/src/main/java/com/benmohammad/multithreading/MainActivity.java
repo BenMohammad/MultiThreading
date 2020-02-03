@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity implements FragmentContainer
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        presentationCompositionRoot = new PresentationCompositionRoot(this);
+        presentationCompositionRoot = new PresentationCompositionRoot(this,
+                ((MyApplication)getApplication()).getApplicationCompositionRoot());
         screenNavigator = presentationCompositionRoot.getScreenNavigator();
         mBackBtn = findViewById(R.id.backBtn);
         mTxtScreenTitle = findViewById(R.id.txt_screen_title);
