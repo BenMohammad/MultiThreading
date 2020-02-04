@@ -4,6 +4,7 @@ import com.benmohammad.multithreading.demo.AtomicityDemonstrationFragment;
 import com.benmohammad.multithreading.demo.CustomHandlerDemonstrationFragment;
 import com.benmohammad.multithreading.demo.UiHandlerDemoFragment;
 import com.benmohammad.multithreading.demo.UiThreadDemonstrationFragment;
+import com.benmohammad.multithreading.demo.designasynctask.DesignWithAsyncTaskDemonstrationFragment;
 import com.benmohammad.multithreading.demo.designthread.DesignWithThreadsDemonstrationFragment;
 import com.benmohammad.multithreading.demo.designthreadpool.DesignWithThreadPoolDemonstrationFragment;
 import com.benmohammad.multithreading.demo.threadwait.ThreadWaitDemonstrationFragment;
@@ -91,5 +92,9 @@ public class ScreenNavigator {
 
     public void toExercise7() {
         fragmentHelper.replaceFragment(Exercise7Fragment.newinstance());
+    }
+
+    public void toDesignWithAsyncDemo() {
+        fragmentHelper.replaceFragment(DesignWithAsyncTaskDemonstrationFragment.newInstance());
     }
 }
