@@ -16,6 +16,7 @@ import com.benmohammad.multithreading.exercises.Exercise4Fragment;
 import com.benmohammad.multithreading.exercises.Exercise5Fragment;
 import com.benmohammad.multithreading.exercises.exercise6.Exercise6Fragment;
 import com.benmohammad.multithreading.exercises.exercise7.Exercise7Fragment;
+import com.benmohammad.multithreading.exercises.exercise8.Exercise8Fragment;
 import com.benmohammad.multithreading.home.HomeFragment;
 import com.techyourchance.fragmenthelper.FragmentHelper;
 
@@ -101,5 +102,9 @@ public class ScreenNavigator {
 
     public void toDesignWithThreadPosterDemo() {
         fragmentHelper.replaceFragment(DesignWithThreadPosterDemonstrationFragment.newInstance());
+    }
+
+    public void toExercise8() {
+        fragmentHelper.replaceFragment(Exercise8Fragment.newInstance());
     }
 }
