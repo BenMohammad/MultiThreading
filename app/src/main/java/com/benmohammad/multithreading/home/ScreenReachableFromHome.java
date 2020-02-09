@@ -16,7 +16,8 @@ public enum ScreenReachableFromHome {
     EXERCISE_6("Exercise 6"),
     DESIGN_WITH_THREADPOOL("Design with ThreadPool"),
     EXERCISE_7("Exercise 7"),
-    DESIGN_WITH_ASYNC("Design with Async");
+    DESIGN_WITH_ASYNC("Design with Async"),
+    DESIGN_WITH_THREADPOSTER("Design with ThreadPoster");
 
     private String mName;
 
