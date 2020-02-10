@@ -18,6 +18,7 @@ import com.benmohammad.multithreading.exercises.Exercise5Fragment;
 import com.benmohammad.multithreading.exercises.exercise6.Exercise6Fragment;
 import com.benmohammad.multithreading.exercises.exercise7.Exercise7Fragment;
 import com.benmohammad.multithreading.exercises.exercise8.Exercise8Fragment;
+import com.benmohammad.multithreading.exercises.exercise9.Exercise9Fragment;
 import com.benmohammad.multithreading.home.HomeFragment;
 import com.techyourchance.fragmenthelper.FragmentHelper;
 
@@ -111,5 +112,9 @@ public class ScreenNavigator {
 
     public void toDesignWithRxJavaDemo() {
         fragmentHelper.replaceFragment(DesignWithRxJavaDemonstrationFragment.newInstance());
+    }
+
+    public void toExercise9() {
+        fragmentHelper.replaceFragment(Exercise9Fragment.newInstance());
     }
 }
