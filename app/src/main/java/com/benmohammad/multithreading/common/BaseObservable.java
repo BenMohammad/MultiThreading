@@ -24,7 +24,7 @@ public abstract class BaseObservable<LISTENER_CLASS> {
             boolean hadOneListener = mListeners.size() == 1;
             mListeners.remove(listener);
             if(hadOneListener && mListeners.size() == 0) {
-                onLastListenerRegsitered();
+                onLastListenerRegistered();
             }
         }
     }
@@ -37,6 +37,6 @@ public abstract class BaseObservable<LISTENER_CLASS> {
 
     protected void onFirstListenerRegistered(){}
 
-    protected void onLastListenerRegsitered(){}
+    protected void onLastListenerRegistered(){}
 
 }

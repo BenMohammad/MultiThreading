@@ -30,8 +30,8 @@ public class ComputeFactorialUseCase extends BaseObservable<ComputeFactorialUseC
     }
 
     @Override
-    protected void onLastListenerRegsitered() {
-        super.onLastListenerRegsitered();
+    protected void onLastListenerRegistered() {
+        super.onLastListenerRegistered();
         synchronized (LOCK) {
             mAbortComputation = true;
             LOCK.notifyAll();

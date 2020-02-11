@@ -117,7 +117,7 @@ public class ProducerConsumerBenchmarkUseCase extends BaseObservable<ProducerCon
     }
 
     @Override
-    protected void onLastListenerRegsitered() {
+    protected void onLastListenerRegistered() {
 
     }
 }

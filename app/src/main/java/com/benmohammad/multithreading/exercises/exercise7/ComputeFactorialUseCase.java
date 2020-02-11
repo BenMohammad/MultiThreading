@@ -1,15 +1,12 @@
 package com.benmohammad.multithreading.exercises.exercise7;
 
 import android.os.Handler;
-import android.os.Looper;
 
 import androidx.annotation.WorkerThread;
 
 import com.benmohammad.multithreading.common.BaseObservable;
 
-import java.lang.reflect.GenericArrayType;
 import java.math.BigInteger;
-import java.util.List;
 import java.util.concurrent.ThreadPoolExecutor;
 
 public class ComputeFactorialUseCase extends BaseObservable<ComputeFactorialUseCase.Listener> {
@@ -37,8 +34,8 @@ public class ComputeFactorialUseCase extends BaseObservable<ComputeFactorialUseC
     }
 
     @Override
-    protected void onLastListenerRegsitered() {
-        super.onLastListenerRegsitered();
+    protected void onLastListenerRegistered() {
+        super.onLastListenerRegistered();
         synchronized (LOCK) {
             mAbortComputation = true;
             LOCK.notifyAll();

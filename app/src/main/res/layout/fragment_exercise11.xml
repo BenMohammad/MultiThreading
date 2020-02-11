@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edt_argument"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:hint="Argument"
+            android:inputType="number"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/edt_timeout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="TImeout ms (OPTIONAL)"
+            android:inputType="number"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btn_compute"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Compute Factorial" />
+
+        <TextView
+            android:id="@+id/txt_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+</ScrollView>
