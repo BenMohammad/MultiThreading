@@ -23,7 +23,8 @@ public enum ScreenReachableFromHome {
     EXERCISE_9("Exercise 9"),
     DESIGN_WITH_COROUTINES("Design with Coroutines"),
     EXERCISE_10("Exercise 10"),
-    EXERCISE_11("Exercise 11");
+    EXERCISE_11("Exercise 11"),
+    EXERCISE_12("Exercise 12");
 
     private String mName;
 
