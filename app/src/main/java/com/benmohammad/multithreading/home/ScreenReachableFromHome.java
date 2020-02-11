@@ -20,7 +20,8 @@ public enum ScreenReachableFromHome {
     DESIGN_WITH_THREADPOSTER("Design with ThreadPoster"),
     EXERCISE_8("Exercise 8"),
     DESIGN_WITH_RXJAVA("Deesign with RxJava"),
-    EXERCISE_9("Exercise 9");
+    EXERCISE_9("Exercise 9"),
+    DESIGN_WITH_COROUTINES("Design with Coroutines");
 
     private String mName;
 
